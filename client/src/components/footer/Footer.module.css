@@ -1,0 +1,64 @@
+.footer {
+  background-color: var(--black);
+  height: 12vh;
+  width: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left {
+  flex: 2;
+}
+
+.left > h5 {
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+  font-family: "Unbounded", cursive;
+  font-weight: 400;
+  color: var(--orange);
+}
+
+.right {
+  flex: 1;
+}
+
+.right > ul {
+  list-style: none;
+  text-align: end;
+}
+
+.email,
+.feedback {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 300;
+  line-height: 2;
+}
+
+.email {
+  font-size: 0.8rem;
+  letter-spacing: 1.7px;
+  border-bottom: 1px solid var(--white);
+}
+
+.feedback {
+  font-size: 0.8rem;
+}
+
+.email:hover {
+  border-color: var(--orange);
+}
+
+.email:hover,
+.feedback:hover {
+  color: var(--orange);
+  transition: 0.4s;
+}

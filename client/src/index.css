@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Unbounded:wght@400;700&display=swap");
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Unbounded', cursive; */
+:root {
+  --black: #252422;
+  --light-black: #403d39;
+  --grey: #cbd2d0;
+  --white: #f1ffe7;
+  --orange: #d39e6fc9;
+  --warning: rgba(255, 0, 0, 0.308);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}

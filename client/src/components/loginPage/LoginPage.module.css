@@ -1,0 +1,103 @@
+.loginPage {
+  height: 78vh;
+  background: url(https://images.unsplash.com/photo-1588099246635-d6868ab08b44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: saturate(180%) blur(10px);
+  border-radius: 0.7rem 0.7rem;
+  min-width: 36%;
+  height: 84%;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, var(--orange) 0px -12px 30px,
+    var(--orange) 0px 4px 6px, var(--orange) 0px 12px 13px,
+    var(--orange) 0px -3px 5px;
+}
+
+.loginForm > h2 {
+  color: var(--white);
+  text-align: center;
+  margin: 2.5rem 1rem;
+  letter-spacing: 1.2px;
+}
+
+.form {
+  width: 56%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* padding: 1rem; */
+}
+
+.email > input,
+.password > input {
+  width: 100%;
+  border-radius: 0.3rem 0.3rem;
+  outline: none;
+  border: none;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  background-color: var(--white);
+  padding: 0.2rem 0.5rem;
+  font-family: "Roboto", sans-serif;
+
+  box-shadow: rgba(0, 0, 0, 0.37) 0px 5px 15px;
+}
+.email > input:focus,
+.password > input:focus {
+  font-weight: 500;
+  background-color: var(--grey);
+}
+
+.form > .btn {
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  border-radius: 0.4rem 0.4rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white);
+}
+
+.form > .btn:hover {
+  background-color: var(--orange);
+  color: black;
+  transition: 0.5s;
+  transform: scale(1.04);
+}
+
+.register {
+  margin: 2rem 0;
+  color: var(--white);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.register > a {
+  text-decoration: none;
+  color: var(--orange);
+  font-weight: 500;
+  text-decoration: underline;
+}
